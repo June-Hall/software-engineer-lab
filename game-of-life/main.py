@@ -4,9 +4,9 @@ from timer import Timer
 from ui import UI
 
 if __name__ == '__main__':
-    map = Map(800, 600, 10)
+    map = Map(800, 600, 100)
     logic = Logic(map)
     timer = Timer(0.2, logic)
-    ui = UI(800, 600, 10, map, logic)
+    ui = UI(800, 600, 100, map, logic)
 
     ui.run()
