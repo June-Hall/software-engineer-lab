@@ -5,10 +5,10 @@ from map import Map
 from logic import Logic
 from timer import Timer
 
-COLOR_BG = (10, 10, 10)             # 背景颜色
-COLOR_GRID = (40, 40, 40)           # 网格颜色
-COLOR_DIE_NEXT = (170, 170, 170)    # 下一代死细胞颜色
-COLOR_ALIVE_NEXT = (255, 255, 255)  # 下一代存活细胞颜色
+COLOR_BG = (10, 10, 10)             
+COLOR_GRID = (40, 40, 40)           
+COLOR_DIE_NEXT = (170, 170, 170)    
+COLOR_ALIVE_NEXT = (255, 255, 255)  
 
 class UI:
     def __init__(self, width, height, cell_size, map, logic):

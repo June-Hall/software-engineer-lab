@@ -1,0 +1,47 @@
+pygame 2.4.0 (SDL 2.26.4, Python 3.10.5)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Wed Jun 14 14:58:56 2023    profile.stats
+
+         1365634 function calls (1365546 primitive calls) in 1.758 seconds
+
+   Random listing order was used
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.758    1.758 {built-in method builtins.exec}
+       44    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       44    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+   341132    0.080    0.000    0.080    0.000 {built-in method builtins.next}
+       37    0.043    0.001    0.043    0.001 {built-in method time.sleep}
+        6    0.000    0.000    0.000    0.000 /Users/duke/Desktop/learn/lecture/software-engineer-lab/game-of-life/map.py:10(set_cell_state)
+   341088    0.126    0.000    0.126    0.000 /Users/duke/Desktop/learn/lecture/software-engineer-lab/game-of-life/map.py:13(get_cell_state)
+       44    0.000    0.000    0.000    0.000 /usr/local/lib/python3.10/site-packages/numpy/core/multiarray.py:80(empty_like)
+       44    0.000    0.000    0.000    0.000 /usr/local/lib/python3.10/site-packages/numpy/core/multiarray.py:1071(copyto)
+       44    0.000    0.000    0.001    0.000 <__array_function__ internals>:177(empty_like)
+       44    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+       44    0.001    0.000    0.001    0.000 {built-in method numpy.asarray}
+       88    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+   132/44    0.001    0.000    0.002    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+       44    0.000    0.000    0.001    0.000 <__array_function__ internals>:177(copyto)
+       44    0.000    0.000    0.002    0.000 /usr/local/lib/python3.10/site-packages/numpy/core/numeric.py:76(zeros_like)
+       44    0.000    0.000    0.000    0.000 /usr/local/lib/python3.10/site-packages/numpy/core/numeric.py:72(_zeros_like_dispatcher)
+       44    0.000    0.000    0.003    0.000 <__array_function__ internals>:177(zeros_like)
+       44    0.001    0.000    0.007    0.000 /usr/local/lib/python3.10/site-packages/numpy/lib/index_tricks.py:657(__init__)
+       44    0.000    0.000    0.000    0.000 /usr/local/lib/python3.10/site-packages/numpy/lib/index_tricks.py:665(__iter__)
+   341132    0.162    0.000    0.242    0.000 /usr/local/lib/python3.10/site-packages/numpy/lib/index_tricks.py:684(__next__)
+       44    0.000    0.000    0.000    0.000 /usr/local/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:20(__init__)
+       44    0.000    0.000    0.000    0.000 /usr/local/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:25(_maybe_view_as_subclass)
+       44    0.002    0.000    0.003    0.000 /usr/local/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:38(as_strided)
+        1    0.000    0.000    0.033    0.033 /Users/duke/Desktop/learn/lecture/software-engineer-lab/game-of-life/ui.py:25(init_screen)
+       44    0.548    0.012    1.198    0.027 /Users/duke/Desktop/learn/lecture/software-engineer-lab/game-of-life/ui.py:30(update_cells)
+        1    0.003    0.003    1.758    1.758 /Users/duke/Desktop/learn/lecture/software-engineer-lab/game-of-life/ui.py:38(run)
+        1    0.112    0.112    0.112    0.112 {built-in method pygame.base.quit}
+       44    0.200    0.005    0.200    0.005 {built-in method pygame.display.update}
+       38    0.013    0.000    0.013    0.000 {method 'fill' of 'pygame.surface.Surface' objects}
+   341088    0.274    0.000    0.274    0.000 {built-in method pygame.draw.rect}
+       38    0.191    0.005    0.191    0.005 {built-in method pygame.event.get}
+        6    0.000    0.000    0.000    0.000 {built-in method pygame.mouse.get_pos}
+       51    0.000    0.000    0.000    0.000 {built-in method pygame.mouse.get_pressed}
+        1    0.000    0.000    1.758    1.758 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

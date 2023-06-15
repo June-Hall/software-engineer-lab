@@ -1,0 +1,32 @@
+logic.py:11:36: W292 no newline at end of file
+map.py:3:1: E302 expected 2 blank lines, found 1
+map.py:8:80: E501 line too long (92 > 79 characters)
+map.py:20:80: E501 line too long (97 > 79 characters)
+test.py:13:1: W293 blank line contains whitespace
+test.py:17:1: W293 blank line contains whitespace
+test.py:21:1: W293 blank line contains whitespace
+test.py:33:1: E302 expected 2 blank lines, found 1
+test.py:37:1: W293 blank line contains whitespace
+test.py:43:1: W293 blank line contains whitespace
+test.py:57:1: E302 expected 2 blank lines, found 1
+test.py:62:1: W293 blank line contains whitespace
+test.py:71:80: E501 line too long (80 > 79 characters)
+test.py:73:1: E302 expected 2 blank lines, found 1
+test.py:76:27: W291 trailing whitespace
+test.py:78:1: W293 blank line contains whitespace
+test.py:83:1: W293 blank line contains whitespace
+test.py:90:1: W293 blank line contains whitespace
+test.py:96:1: E305 expected 2 blank lines after class or function definition, found 1
+test.py:96:27: W291 trailing whitespace
+test.py:97:20: W292 no newline at end of file
+timer.py:3:1: E302 expected 2 blank lines, found 1
+timer.py:13:49: W292 no newline at end of file
+ui.py:4:1: F401 'map.Map' imported but unused
+ui.py:5:1: F401 'logic.Logic' imported but unused
+ui.py:6:1: F401 'timer.Timer' imported but unused
+ui.py:13:1: E302 expected 2 blank lines, found 1
+ui.py:32:80: E501 line too long (92 > 79 characters)
+ui.py:35:80: E501 line too long (100 > 79 characters)
+ui.py:58:1: W293 blank line contains whitespace
+ui.py:59:13: E303 too many blank lines (2)
+ui.py:65:30: W292 no newline at end of file
